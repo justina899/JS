@@ -64,3 +64,56 @@ if(randA < randB + randC && randB < randC + randA && randC < randB + randA){
     console.log("Trikampis negali susidaryti!");
 }
 //----------------------------------------------
+console.log("užd 5");
+let nuliai = 0;
+let vienetai = 0;
+let dvejetai = 0;
+rand1 = Math.round(Math.random() * 2);
+console.log("pirmas: " + rand1);
+if(rand1 == 0){
+    nuliai = nuliai + 1;
+}else{
+    if(rand1 == 1){
+        vienetai = vienetai + 1;
+    }else{
+        dvejetai = dvejetai + 1;
+    }
+}
+rand2 = Math.round(Math.random() * 2);
+console.log("antras: " + rand2);
+if(rand2 == 0){
+    nuliai = nuliai + 1;
+}else{
+    if(rand2 == 1){
+        vienetai = vienetai + 1;
+    }else{
+        dvejetai = dvejetai + 1;
+    }
+}
+rand3 = Math.round(Math.random() * 2);
+console.log("trecias: " + rand3);
+if(rand3 == 0){
+    nuliai = nuliai + 1;
+}else{
+    if(rand3 == 1){
+        vienetai = vienetai + 1;
+    }else{
+        dvejetai = dvejetai + 1;
+    }
+}
+rand4 = Math.round(Math.random() * 2);
+console.log("ketvirtas: " + rand4);
+if(rand4 == 0){
+    nuliai = nuliai + 1;
+}else{
+    if(rand4 == 1){
+        vienetai = vienetai + 1;
+    }else{
+        dvejetai = dvejetai + 1;
+    }
+}
+console.log("nuliai: " + nuliai);
+console.log("vienetai: " + vienetai);
+console.log("dvejetai: " + dvejetai);
+//----------------------------------------
+console.log("užd 6");
