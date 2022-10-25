@@ -148,3 +148,18 @@ if(randNu3 < 0){
     }
 }
 //-------------------------------------------------------
+console.log("užd 7");
+zvakiuSk = Math.round((Math.random() * (2995)) + 5);
+console.log("zvakiu sk: " + zvakiuSk);
+let kaina;
+if(1000 < zvakiuSk && zvakiuSk < 2001){
+    kaina = 0.97;
+}else{
+    if(zvakiuSk > 2000){
+        kaina = 0.96;
+    }else{
+        kaina = 1;
+    }
+}
+console.log("pirkimo kaina: " + kaina + " Eur");
+//-------------------------------------------------------
