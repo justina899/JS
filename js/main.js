@@ -1,9 +1,11 @@
+console.log("užd 1");
 let myName = "Justina";
 let surname = "Babr";
 let dateOfBirth = 1988;
 let dateToday = 2022;
 console.log("Aš esu " + myName + " " + surname + ". Man " + (dateToday - dateOfBirth) + " metai(ų).");
 //-----------------------------------------
+console.log("užd 2");
 randNum1 = Math.round(Math.random() * 5);
 console.log("first number " + randNum1);
 randNum2 = Math.round(Math.random() * 5);  
@@ -28,5 +30,25 @@ if (randNum1 > randNum2 && randNum2 > 0) {
     }
 }
 //--------------------------------------------
-
+console.log("užd 3");
+randN1 = Math.round(Math.random() * 25);
+console.log("pirmas: " + randN1);
+randN2 = Math.round(Math.random() * 25);
+console.log("antras: " + randN2);
+randN3 = Math.round(Math.random() * 25);
+console.log("trečias: " + randN3);
+if((randN2 < randN1 && randN1 < randN3)  || (randN3 < randN1 && randN1 < randN2)){
+    console.log("vidurinė reikšmė: " + randN1);
+}else{
+    if((randN1 < randN2 && randN2 < randN3) || (randN3 < randN2 && randN2 < randN1)){
+        console.log("vidurinė reikšmė: " + randN2);
+    }else{
+        if((randN2 < randN3 && randN3 < randN1) || (randN1 < randN3 && randN3 < randN2)){
+            console.log("vidurinė reikšmė: " + randN3);
+        }else{
+            console.log("kažkurie skaičiai yra lygūs");
+        }
+    }
+}
+//---------------------------------------------
 
