@@ -117,3 +117,34 @@ console.log("vienetai: " + vienetai);
 console.log("dvejetai: " + dvejetai);
 //----------------------------------------
 console.log("užd 6");
+randNu1 = Math.round((Math.random() * (-10)) + (Math.random() * (10)));
+if(randNu1 < 0){
+    console.log("[" + randNu1 + "]"); 
+}else{
+    if(randNu1 > 0){
+        console.log("{" + randNu1 + "}");
+    }else{
+        console.log("(" + randNu1 + ")");
+    }
+}
+randNu2 = Math.round((Math.random() * (-10)) + (Math.random() * (10)));
+if(randNu2 < 0){
+    console.log("[" + randNu2 + "]"); 
+}else{
+    if(randNu2 > 0){
+        console.log("{" + randNu2 + "}");
+    }else{
+        console.log("(" + randNu2 + ")");
+    }
+}
+randNu3 = Math.round((Math.random() * (-10)) + (Math.random() * (10)));
+if(randNu3 < 0){
+    console.log("[" + randNu3 + "]"); 
+}else{
+    if(randNu3 > 0){
+        console.log("{" + randNu3 + "}");
+    }else{
+        console.log("(" + randNu3 + ")");
+    }
+}
+//-------------------------------------------------------
