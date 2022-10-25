@@ -51,4 +51,16 @@ if((randN2 < randN1 && randN1 < randN3)  || (randN3 < randN1 && randN1 < randN2)
     }
 }
 //---------------------------------------------
-
+console.log("užd 4");
+randA = Math.round(Math.random() * 9) + 1;
+console.log("a: " + randA);
+randB = Math.round(Math.random() * 9) + 1;
+console.log("b: " + randB);
+randC = Math.round(Math.random() * 9) + 1;
+console.log("c: " + randC);
+if(randA < randB + randC && randB < randC + randA && randC < randB + randA){
+    console.log("Trikampis gali susidaryti!");
+}else{
+    console.log("Trikampis negali susidaryti!");
+}
+//----------------------------------------------
